@@ -1,12 +1,12 @@
 const Colors = () => {
   return (
     <>
-      <h2 className="numberd-title">
+      <h2 className="numbered-title">
         <span>01 </span>
         colors
       </h2>
       <div className="flex">
-        <div style={{ flexGrow: "1" }}>
+        <div className="flow" style={{ flexGrow: "1" }}>
           <div
             className="ff-serif fs-500"
             style={{ padding: "3rem 1rem 1rem", border: "1px solid white" }}
@@ -20,7 +20,7 @@ const Colors = () => {
             <span className="text-accent">HSL</span>230°, 35%, 7%
           </p>
         </div>
-        <div style={{ flexGrow: "1" }}>
+        <div className="flow" style={{ flexGrow: "1" }}>
           <div
             className="bg-accent text-dark ff-serif fs-500"
             style={{ padding: "3rem 1rem 1rem" }}
@@ -34,7 +34,7 @@ const Colors = () => {
             <span className="text-accent">HSL</span>231°, 77%, 90%
           </p>
         </div>
-        <div style={{ flexGrow: "1" }}>
+        <div className="flow" style={{ flexGrow: "1" }}>
           <div
             className="bg-white text-dark ff-serif fs-500"
             style={{ padding: "3rem 1rem 1rem" }}

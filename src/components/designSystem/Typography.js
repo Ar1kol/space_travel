@@ -1,7 +1,7 @@
 const Typography = () => {
   return (
     <>
-      <h2 className="numberd-title">
+      <h2 className="numbered-title">
         <span>02 </span>Typography
       </h2>
       <div className="flex">
@@ -34,7 +34,7 @@ const Typography = () => {
           </div>
         </div>
 
-        <div style={{ flexBasis: "100%" }}>
+        <div className="flow" style={{ flexBasis: "100%", "--flow-space": "4rem" }}>
           <div>
             <p className="text-accent">
               Subheading 1 - Bellefair Regular - 28px
